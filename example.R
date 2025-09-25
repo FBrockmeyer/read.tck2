@@ -9,7 +9,7 @@ local({
 
 # data from here: 
 # https://openneuro.org/datasets/ds001226/versions/00001
-f = list.files('./Data/FOD_iFOD2_trackings', pattern='.tck$', full.names=TRUE) 
+f = list.files('./FOD_iFOD2_trackings', pattern='.tck$', full.names=TRUE) 
 
 # show error due to early exit:
 lapply(f, freesurferformats::read.dti.tck)
