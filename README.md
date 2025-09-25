@@ -1,4 +1,4 @@
-# read.tck
+# read.tck2
 Suggestions for a re-write of [`freesurferformats::read.dti.tck()`](https://github.com/dfsp-spirit/freesurferformats/blob/master/R/read_dti_tck.R) in base `R`. 
 
 Discussion: https://github.com/dfsp-spirit/freesurferformats/issues/34
